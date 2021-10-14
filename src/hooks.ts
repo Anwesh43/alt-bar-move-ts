@@ -15,7 +15,7 @@ export const useAnimatedScale = () => {
                             clearInterval(interval)
                             return 0
                         }
-                        return prev + 0.02 
+                        return prev + (0.02 / 5) 
                     })
                 }, 20)
             }
