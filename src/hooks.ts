@@ -53,7 +53,7 @@ const n : number = 5
 
 const sinify = (scale : number) : number => Math.sin(scale * Math.PI)
 
-export const useStyle = (w : number, h : number, scale : number) => {
+export const withStyle = (w : number, h : number, scale : number) => {
     const sf : number = sinify(scale)
     const position = 'absolute'
     const size = Math.min(w, h) / 10
